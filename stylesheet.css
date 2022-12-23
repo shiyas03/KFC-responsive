@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggle-page{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+.toggle-close{
+    width: 100%;
+    height: 45px;
+    border-bottom: solid 1px rgb(220, 218, 218);
+    display: flex;
+}
+.close{
+    border: none;
+    background-color: white;
+    font-size: 35px;
+    margin-left: 20px;
+    height: 40px;
+    margin-top: -10px;
+}
+.toggle-image1{
+    height: 40px;
+    margin-left: 140px;
+}
+.toggle-image2{
+    height: 40px;
+    margin-left: 100px;
+}
+.toggle-bigtext{
+    width: 150px;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px;
+    letter-spacing: -1px;
+}
+.toggle-sign{
+    margin-left: 20px;
+    font-size: 13px;
+}
+.toggle-menu{
+    width: 92%;
+    height: 120px;
+    background-color: #f8f7f5;
+    margin:50px 20px 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.toggle-menu img{
+   height: 120px;
+   margin-left: 170px;
+}
+.toggle-deals{
+    width: 92%;
+    height: 120px;
+    background-color: #f8f7f5;
+    margin:10px 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.toggle-deals img{
+   height: 120px;
+   margin-left: 160px;
+}
+.toggle-links{
+    width: 92%;
+    height: 220px;
+    background-color: #f8f7f5;
+    margin:50px 20px;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    list-style-type: none;
+}
+.toggle-links li{
+    padding-bottom: 35px;
+}
+.toggle-links a{
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.location-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(218, 218, 218);
+}
+.location-bar div{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.location-bar button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    width: 90px;
+    height: 30px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.nav-item a{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.img-div{
+    width: 100%;
+    height: 100vh;
+}
+.nav-sign a{
+    width: 100px;
+    height: 25px;
+    border-right: solid 1px rgb(182, 182, 182);
+}
+.nav-end a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+}
+@media screen and (max-width: 1024px) {   
+    .img-div{
+    	background-image: url(images/asset\ 6.1.webp);
+        background-repeat:no-repeat;
+        background-size:contain;
+        max-height: 30rem;
+        position: relative;
+    } 
+}
+
+@media screen and (min-width: 1024px) {      
+    .img-div{      
+    	background-image: url(images/asset\ 6.webp);
+        background-repeat:no-repeat;
+        background-size:contain;
+        max-height: 30rem;
+    } 
+} 
+.card-section{
+    width: 100%;
+    margin-top: 80px;
+}
+.card-container{
+    width: 80%;
+    background-color: white;
+}
+.section-text p{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.section-text{
+    width: 100%;
+    height: 50px;
+}
+.cards a p{
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    height: 30px;
+    
+}
+.cards a{
+    text-decoration: none;
+    color: black;
+}
+.cards{
+    background-color: #f8f7f5;
+    border-radius: 10px;
+}
+.cards img{
+    border-radius: 10px 10px 0px 0px;
+}
+.card-body{
+    margin-top: 20px;
+}
+
+.bottom-card a{
+    text-decoration: none;
+    color: black;
+}
+.bottom-card p{
+    font-size: 1rem;
+}
+.bottom-card button{
+    background-color: white;
+    border: solid;
+    width: 5rem;
+    border-radius: 50px;
+    margin-left: 10%;
+    border: solid 2px;
+}
+.footer-container a{
+    text-decoration: none;
+    color: white;
+}
+.desc-link a{
+    font-size: 1rem;
+}
